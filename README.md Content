@@ -1,0 +1,46 @@
+# 🩺 AI Health Chatbot
+
+An intelligent, GPT-powered health assistant built with Streamlit. It responds to user symptoms with curated wellness advice, nutritional tips, home remedies, and language translations.
+
+## ✨ Features
+
+- 💬 Chat-style interface with user/bot bubbles (streamlit-chat)
+- 🧠 GPT-2 based fallback advice for unmatched queries (Hugging Face)
+- 🌿 Curated home remedies for 15+ health conditions
+- 📗 Hindi translation using Deep Translator
+- 📈 Daily health chart (water, sleep, steps)
+- 📋 FAQ search from a Pandas dataframe
+- 🎨 Clean and emoji-rich Streamlit UI
+
+## 🛠️ Technologies Used
+
+- Python
+- Streamlit
+- Transformers + Torch (for GPT-2)
+- Streamlit Chat
+- Deep Translator
+- Pandas + Matplotlib
+
+
+🚀 Run Locally
+To launch the chatbot on your system:
+
+bash
+streamlit run health_chatbot.py
+
+✅ This assumes:
+
+Python is installed
+
+All dependencies are set up (via requirements.txt)
+
+You’re in the project folder in terminal
+
+To install the dependencies beforehand:
+
+bash
+pip install -r requirements.txt
+
+## 🛡️ Disclaimer
+
+This chatbot is for educational use only and does not replace advice from licensed healthcare professionals.

@@ -1,0 +1,8 @@
+streamlit
+streamlit-chat
+transformers
+torch
+pandas
+matplotlib
+deep-translator
+streamlit-extras
